@@ -28,12 +28,6 @@
     "[markdown]": {
         "editor.defaultFormatter": "yzhang.markdown-all-in-one"
     },
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
     "markdown-preview-enhanced.codeBlockTheme": "monokai.css",
     "gitlens.gitCommands.closeOnFocusOut": true,
     "[javascript]": {
@@ -641,5 +635,6 @@
     "window.menuBarVisibility": "toggle",
     "terminal.external.linuxExec": "",
     "editor.minimap.enabled": false,
-    "editor.lineNumbers": "relative"
+    "editor.lineNumbers": "relative",
+    "prettier.useTabs": true
 }
