@@ -156,7 +156,6 @@ nnoremap <leader>h :call ToggleHiddenAll()<CR>
 " Here leader is ";".
 " So ":vs ;cfz" will expand into ":vs /home/<user>/.config/zsh/.zshrc"
 " if typed fast without the timeout.
-source ~/.config/nvim/shortcuts.vim
 
 " Gruvbox Settings
 autocmd vimenter * ++nested colorscheme gruvbox
