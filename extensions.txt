@@ -1,0 +1,7 @@
+asvetliakov.vscode-neovim
+esbenp.prettier-vscode
+jdinhlife.gruvbox
+mechatroner.rainbow-csv
+monokai.theme-monokai-pro-vscode
+vspacecode.whichkey
+yzhang.markdown-all-in-one
