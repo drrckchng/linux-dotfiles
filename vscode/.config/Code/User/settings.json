@@ -641,6 +641,5 @@
     "window.menuBarVisibility": "toggle",
     "terminal.external.linuxExec": "",
     "editor.minimap.enabled": false,
-    "editor.lineNumbers": "relative",
-    "workbench.activityBar.visible": false
+    "editor.lineNumbers": "relative"
 }
