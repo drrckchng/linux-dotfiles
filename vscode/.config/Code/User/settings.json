@@ -1,6 +1,5 @@
 {
-    "workbench.colorTheme": "Gruvbox Dark Medium",
-    "editor.fontWeight": "bold",
+  "editor.fontWeight": "bold",
     "editor.fontFamily": "'fira code medium'",
     "editor.fontSize": 13,
     "editor.fontLigatures": true,
@@ -636,5 +635,6 @@
     "terminal.external.linuxExec": "",
     "editor.minimap.enabled": false,
     "editor.lineNumbers": "relative",
-    "prettier.useTabs": true
+    "prettier.useTabs": true,
+    "vscode-neovim.useWSL": true
 }
