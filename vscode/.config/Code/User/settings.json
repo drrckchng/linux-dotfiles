@@ -636,5 +636,6 @@
     "editor.minimap.enabled": false,
     "editor.lineNumbers": "relative",
     "prettier.useTabs": true,
-    "vscode-neovim.useWSL": true
+    "vscode-neovim.useWSL": true,
+    "workbench.colorTheme": "Gruvbox Dark Medium"
 }
