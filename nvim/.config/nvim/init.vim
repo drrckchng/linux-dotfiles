@@ -17,6 +17,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-commentary'
 Plug 'ap/vim-css-color'
 Plug 'morhetz/gruvbox'
+Plug 'dkarter/bullets.vim'
 call plug#end()
 
 set title
