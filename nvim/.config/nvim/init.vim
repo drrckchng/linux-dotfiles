@@ -46,6 +46,12 @@ set noshowcmd
 	vnoremap . :normal .<CR>
 " Spell-check set to <leader>o, 'o' for 'orthography':
 	map <leader>o :setlocal spell! spelllang=en_us<CR>
+" Spell-check auto set for markdown and gitcommit files:
+autocmd FileType markdown setlocal spell
+autocmd FileType gitcommit setlocal spell
+" Auto complete words in MD and git commit files:
+autocmd FileType markdown setlocal complete+=kspell
+autocmd FileType gitcommit setlocal complete+=kspell
 " Splits open at the bottom and right, which is more sensible, unlike vim defaults.
 	set splitbelow splitright
 
