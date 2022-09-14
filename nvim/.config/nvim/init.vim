@@ -18,6 +18,7 @@ Plug 'tpope/vim-commentary'
 Plug 'ap/vim-css-color'
 Plug 'morhetz/gruvbox'
 Plug 'dkarter/bullets.vim'
+Plug 'tpope/vim-surround'
 call plug#end()
 
 set title
