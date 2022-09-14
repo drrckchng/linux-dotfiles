@@ -636,5 +636,8 @@
     "terminal.external.linuxExec": "",
     "editor.minimap.enabled": false,
     "editor.lineNumbers": "relative",
-    "prettier.useTabs": true
+    "prettier.useTabs": true,
+    "workbench.activityBar.visible": false,
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.fontFamily": "monospace"
 }
