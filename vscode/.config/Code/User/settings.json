@@ -1,7 +1,5 @@
 {
-    "workbench.colorTheme": "Gruvbox Dark Medium",
     "editor.fontWeight": "bold",
-    "editor.fontFamily": "'fira code medium'",
     "editor.fontSize": 13,
     "editor.fontLigatures": true,
     "explorer.confirmDragAndDrop": false,
@@ -637,6 +635,8 @@
     "editor.minimap.enabled": false,
     "editor.lineNumbers": "relative",
     "prettier.useTabs": true,
+    "vscode-neovim.useWSL": true,
+    "workbench.colorTheme": "Gruvbox Dark Medium",
     "workbench.activityBar.visible": false,
     "terminal.integrated.fontSize": 13,
     "terminal.integrated.fontFamily": "monospace"
