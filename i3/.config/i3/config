@@ -88,10 +88,10 @@ bindsym $mod+g workspace prev
 bindsym $mod+semicolon workspace next
 bindsym $mod+Left workspace prev
 bindsym $mod+Right workspace next
-bindsym $mod+Shift+g move workspace to output left
-bindsym $mod+Shift+semicolon move workspace to output right
-bindsym $mod+Shift+Left move workspace to output left
-bindsym $mod+Shift+Right move workspace to output right
+bindsym $mod+Shift+g move container to output left
+bindsym $mod+Shift+semicolon move container to output right
+bindsym $mod+Shift+Left move container to output left
+bindsym $mod+Shift+Right move container
 bindsym $mod+Tab workspace back_and_forth	
 
 # Reload Config File
