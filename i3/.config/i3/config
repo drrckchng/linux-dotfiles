@@ -2,9 +2,9 @@
 # You can set these variables in ~/.profile or ~/.bash_profile if you have it as below:
 
 # Basic Definitions
-for_window [class="^.*"] border pixel 2
-gaps inner 15
-gaps outer 15
+for_window [class="^.*"] border pixel 3
+gaps inner 12
+gaps outer 12
 
 # Variables
 set $term --no-startup-id $TERMINAL
@@ -121,7 +121,7 @@ bindsym $mod+s			gaps inner current plus 5
 bindsym $mod+Shift+s		gaps inner current minus 5
 bindsym $mod+z			gaps outer current plus 5
 bindsym $mod+Shift+z		gaps outer current minus 5
-bindsym $mod+Shift+t		gaps inner current set 15; gaps outer current set 15
+bindsym $mod+Shift+t		gaps inner current set 12; gaps outer current set 12
 bindsym $mod+Shift+d		gaps inner current set 0; gaps outer current set 0
 
 # Set BG
