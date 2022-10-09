@@ -12,11 +12,11 @@ set $browser --no-startup-id $BROWSER
 set $mod Mod4
 
 # Program Binds
-bindsym $mod+Return		exec $term
-bindsym $mod+w          exec $browser
-bindsym $mod+l          exec xflock4
-bindsym $mod+d			exec --no-startup-id rofi -show drun
-bindsym Mod1+d          exec 
+bindsym $mod+Return exec $term
+bindsym $mod+w exec $browser
+bindsym $mod+l exec xflock4
+bindsym $mod+d exec --no-startup-id rofi -show drun
+bindsym Mod1+d exec xfce4-popup-whiskermenu
 
 bindsym $mod+Shift+space 	floating toggle
 bindsym $mod+space		focus mode_toggle
