@@ -14,7 +14,9 @@ set $mod Mod4
 # Program Binds
 bindsym $mod+Return		exec $term
 bindsym $mod+w          exec $browser
+bindsym $mod+l          exec xflock4
 bindsym $mod+d			exec --no-startup-id rofi -show drun
+bindsym Mod1+d          exec 
 
 bindsym $mod+Shift+space 	floating toggle
 bindsym $mod+space		focus mode_toggle
@@ -163,3 +165,5 @@ bindsym $mod+Shift+Down		move down
 bindsym $mod+Shift+Up		move up
 bindsym $mod+Shift+Right 	move right
 
+# Set BG
+exec_always --no-startup-id feh --bg-fill ~/Pictures/wallpapers/1650128295090.png
