@@ -1,0 +1,5 @@
+export TERMINAL="kitty"
+
+ibus-daemon -drxR
+nitrogen --restore &
+
