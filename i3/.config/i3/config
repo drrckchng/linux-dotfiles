@@ -128,7 +128,7 @@ bindsym $mod+Shift+d		gaps inner current set 0; gaps outer current set 0
 set $bg-color 	         #282828
 set $inactive-bg-color   #282828
 set $text-color          #d79921
-set $inactive-text-color #689d6a
+set $inactive-text-color #98971A
 set $urgent-bg-color     #cc241d
 
 # class                 border              background         text                 indicator		 child_border
