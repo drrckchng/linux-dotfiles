@@ -45,6 +45,7 @@ bindsym $mod+f fullscreen toggle
 
 # Floating/Tiling Toggle
 bindsym $mod+Shift+space floating toggle
+bindsym $mod+space focus mode_toggle
 bindsym $mod+o sticky toggle
 
 # Move Floating Windows
