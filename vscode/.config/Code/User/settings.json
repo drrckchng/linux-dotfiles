@@ -638,5 +638,6 @@
     "terminal.integrated.fontSize": 13,
     "terminal.integrated.fontFamily": "monospace",
     "editor.minimap.enabled": false,
-    "editor.fontFamily": "'JetBrainsMono Nerd Font Mono', 'monospace', monospace"
+    "editor.fontFamily": "'JetBrainsMono Nerd Font Mono', 'monospace', monospace",
+    "workbench.activityBar.visible": false
 }
