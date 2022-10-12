@@ -639,5 +639,6 @@
     "terminal.integrated.fontFamily": "monospace",
     "editor.minimap.enabled": false,
     "editor.fontFamily": "'JetBrainsMono Nerd Font Mono', 'monospace', monospace",
+    "glassit.alpha": 235,
     "workbench.activityBar.visible": false
 }
