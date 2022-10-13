@@ -18,7 +18,6 @@ bindsym $mod+Return exec $term
 bindsym $mod+w exec $browser
 bindsym $mod+Shift+x exec xflock4
 bindsym $mod+d exec --no-startup-id rofi -show drun
-bindsym Mod1+d exec xfce4-popup-whiskermenu
 
 # Change Focus 
 bindsym $mod+h focus left
