@@ -10,6 +10,8 @@ gaps outer 12
 set $term --no-startup-id $TERMINAL
 set $browser --no-startup-id $BROWSER
 set $mod Mod4
+set $fm DP-2
+set $sm HDMI-0
 
 # Program Binds
 bindsym $mod+Return exec $term
@@ -51,6 +53,28 @@ bindsym $mod+o sticky toggle
 # Move Floating Windows
 floating_modifier $mod
 
+# Workspace Monitors
+workspace 1 output $fm
+workspace 2 output $fm
+workspace 3 output $fm
+workspace 4 output $fm
+workspace 5 output $fm
+workspace 6 output $fm
+workspace 7 output $fm
+workspace 8 output $fm
+workspace 9 output $fm
+workspace 10 output $fm
+workspace 11 output $sm
+workspace 12 output $sm
+workspace 13 output $sm
+workspace 14 output $sm
+workspace 15 output $sm
+workspace 16 output $sm
+workspace 17 output $sm
+workspace 18 output $sm
+workspace 19 output $sm
+workspace 20 output $sm
+
 # Set Workspace Names
 set $ws1 "1"
 set $ws2 "2"
@@ -62,6 +86,16 @@ set $ws7 "7"
 set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
+set $ws11 "11"
+set $ws12 "12"
+set $ws13 "13"
+set $ws14 "14"
+set $ws15 "15"
+set $ws16 "16"
+set $ws17 "17"
+set $ws18 "18"
+set $ws19 "19"
+set $ws20 "20"
 
 # Switch to Workspace
 bindsym $mod+1 workspace $ws1
@@ -74,6 +108,17 @@ bindsym $mod+7 workspace $ws7
 bindsym $mod+8 workspace $ws8
 bindsym $mod+9 workspace $ws9
 bindsym $mod+0 workspace $ws10
+bindsym Mod1+1 workspace $ws11
+bindsym Mod1+2 workspace $ws12
+bindsym Mod1+3 workspace $ws13
+bindsym Mod1+4 workspace $ws14
+bindsym Mod1+5 workspace $ws15
+bindsym Mod1+6 workspace $ws16
+bindsym Mod1+7 workspace $ws17
+bindsym Mod1+8 workspace $ws18
+bindsym Mod1+9 workspace $ws19
+bindsym Mod1+0 workspace $ws20
+
 
 # Move Focused Container to Workspace
 bindsym $mod+Shift+1 move container to workspace $ws1
@@ -86,6 +131,16 @@ bindsym $mod+Shift+7 move container to workspace $ws7
 bindsym $mod+Shift+8 move container to workspace $ws8
 bindsym $mod+Shift+9 move container to workspace $ws9
 bindsym $mod+Shift+0 move container to workspace $ws10
+bindsym Mod1+Shift+1 move container to workspace $ws11
+bindsym Mod1+Shift+2 move container to workspace $ws12
+bindsym Mod1+Shift+3 move container to workspace $ws13
+bindsym Mod1+Shift+4 move container to workspace $ws14
+bindsym Mod1+Shift+5 move container to workspace $ws15
+bindsym Mod1+Shift+6 move container to workspace $ws16
+bindsym Mod1+Shift+7 move container to workspace $ws17
+bindsym Mod1+Shift+8 move container to workspace $ws18
+bindsym Mod1+Shift+9 move container to workspace $ws19
+bindsym Mod1+Shift+0 move container to workspace $ws20
 
 # Dual Monitor Workspaces
 bindsym $mod+g workspace prev
