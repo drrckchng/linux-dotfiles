@@ -11,3 +11,4 @@ export XDG_CACHE_HOME=$HOME/.cache
 export XDG_DATA_HOME=$HOME/.local/share
 
 ibus-daemon -drxR
+GLFW_IM_MODULE=ibus
