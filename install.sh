@@ -20,6 +20,6 @@ sudo pacman -S rofi --noconfirm
 sudo pacman -S stow --noconfirm
 sudo pacman -S zsh --noconfirm
 
-sudo yay -S picom-git --noconfirm
-sudo yay -S visual-studio-code-bin --noconfirm
+yay -S picom-git --noconfirm
+yay -S visual-studio-code-bin --noconfirm
 
