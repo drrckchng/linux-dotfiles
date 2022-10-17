@@ -17,6 +17,7 @@ sudo pacman -S lf --noconfirm
 sudo pacman -S neovim --noconfirm
 sudo pacman -S noto-fonts-cjk --noconfirm
 sudo pacman -S polybar --noconfirm
+# install icons
 sudo pacman -S rofi --noconfirm
 sudo pacman -S stow --noconfirm
 sudo pacman -S zsh --noconfirm
