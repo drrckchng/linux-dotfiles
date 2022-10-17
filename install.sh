@@ -9,10 +9,12 @@ sudo pacman -Syu --noconfirm
 #Install packages
 sudo pacman -S feh --noconfirm
 sudo pacman -S i3 --noconfirm
+sudo pacman -S ibus-hangul --noconfirm
 sudo pacman -S kitty --noconfirm
 sudo pacman -S lazygit --noconfirm
 sudo pacman -S lf --noconfirm
 sudo pacman -S neovim --noconfirm
+sudo pacman -S noto-fonts-cjk --noconfirm
 sudo pacman -S polybar --noconfirm
 sudo pacman -S rofi --noconfirm
 sudo pacman -S stow --noconfirm
@@ -20,3 +22,4 @@ sudo pacman -S zsh --noconfirm
 
 sudo yay -S picom-git --noconfirm
 sudo yay -S visual-studio-code-bin --noconfirm
+
