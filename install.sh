@@ -15,6 +15,7 @@ sudo pacman -S lf --noconfirm
 sudo pacman -S neovim --noconfirm
 sudo pacman -S polybar --noconfirm
 sudo pacman -S rofi --noconfirm
+sudo pacman -S stow --noconfirm
 sudo pacman -S zsh --noconfirm
 
 sudo yay -S picom-git --noconfirm
