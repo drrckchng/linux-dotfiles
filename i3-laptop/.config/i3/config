@@ -1,0 +1,211 @@
+#This config file will use environmental variables such as $BROWSER and $TERMINAL.
+# You can set these variables in ~/.profile or ~/.bash_profile if you have it as below:
+
+# Basic Definitions
+for_window [class="^.*"] border pixel 3
+gaps inner 12
+gaps outer 12
+
+# Variables
+set $term --no-startup-id $TERMINAL
+set $browser --no-startup-id $BROWSER
+set $mod Mod4
+set $fm DP-2
+
+# Program Binds
+bindsym $mod+Return exec $term
+bindsym $mod+w exec $browser
+bindsym $mod+Shift+x exec xflock4
+bindsym $mod+d exec --no-startup-id rofi -show drun
+bindsym XF86MonBrightnessUp exec brightnessctl set 5%+
+bindsym XF86MonBrightnessDown exec brightnessctl set 5%-
+bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +5%
+bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -5%
+bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
+
+# Change Focus 
+bindsym $mod+h focus left
+bindsym $mod+j focus down 
+bindsym $mod+k focus up
+bindsym $mod+l focus right
+
+# Move Focused Window
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
+
+# Kill Focused Window
+bindsym $mod+q kill
+
+# Splits
+bindsym $mod+slash split vertical ;; exec $term
+bindsym $mod+apostrophe split horizontal ;; exec $term
+
+# Toggle Spawn Vertical/Horizontal
+bindsym $mod+t split toggle
+
+# Fullscreen Focused Container
+bindsym $mod+f fullscreen toggle
+
+# Floating/Tiling Toggle
+bindsym $mod+Shift+space floating toggle
+bindsym $mod+space focus mode_toggle
+bindsym $mod+o sticky toggle
+
+# Move Floating Windows
+floating_modifier $mod
+
+# Workspace Monitors
+workspace 1 output $fm
+workspace 2 output $fm
+workspace 3 output $fm
+workspace 4 output $fm
+workspace 5 output $fm
+workspace 6 output $fm
+workspace 7 output $fm
+workspace 8 output $fm
+workspace 9 output $fm
+workspace 10 output $fm
+workspace 11 output $sm
+workspace 12 output $sm
+workspace 13 output $sm
+workspace 14 output $sm
+workspace 15 output $sm
+workspace 16 output $sm
+workspace 17 output $sm
+workspace 18 output $sm
+workspace 19 output $sm
+workspace 20 output $sm
+
+# Set Workspace Names
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+set $ws10 "10"
+set $ws11 "11"
+set $ws12 "12"
+set $ws13 "13"
+set $ws14 "14"
+set $ws15 "15"
+set $ws16 "16"
+set $ws17 "17"
+set $ws18 "18"
+set $ws19 "19"
+set $ws20 "20"
+
+# Switch to Workspace
+bindsym $mod+1 workspace $ws1
+bindsym $mod+2 workspace $ws2
+bindsym $mod+3 workspace $ws3
+bindsym $mod+4 workspace $ws4
+bindsym $mod+5 workspace $ws5
+bindsym $mod+6 workspace $ws6
+bindsym $mod+7 workspace $ws7
+bindsym $mod+8 workspace $ws8
+bindsym $mod+9 workspace $ws9
+bindsym $mod+0 workspace $ws10
+bindsym Mod1+1 workspace $ws11
+bindsym Mod1+2 workspace $ws12
+bindsym Mod1+3 workspace $ws13
+bindsym Mod1+4 workspace $ws14
+bindsym Mod1+5 workspace $ws15
+bindsym Mod1+6 workspace $ws16
+bindsym Mod1+7 workspace $ws17
+bindsym Mod1+8 workspace $ws18
+bindsym Mod1+9 workspace $ws19
+bindsym Mod1+0 workspace $ws20
+
+
+# Move Focused Container to Workspace
+bindsym $mod+Shift+1 move container to workspace $ws1
+bindsym $mod+Shift+2 move container to workspace $ws2
+bindsym $mod+Shift+3 move container to workspace $ws3
+bindsym $mod+Shift+4 move container to workspace $ws4
+bindsym $mod+Shift+5 move container to workspace $ws5
+bindsym $mod+Shift+6 move container to workspace $ws6
+bindsym $mod+Shift+7 move container to workspace $ws7
+bindsym $mod+Shift+8 move container to workspace $ws8
+bindsym $mod+Shift+9 move container to workspace $ws9
+bindsym $mod+Shift+0 move container to workspace $ws10
+bindsym Mod1+Shift+1 move container to workspace $ws11
+bindsym Mod1+Shift+2 move container to workspace $ws12
+bindsym Mod1+Shift+3 move container to workspace $ws13
+bindsym Mod1+Shift+4 move container to workspace $ws14
+bindsym Mod1+Shift+5 move container to workspace $ws15
+bindsym Mod1+Shift+6 move container to workspace $ws16
+bindsym Mod1+Shift+7 move container to workspace $ws17
+bindsym Mod1+Shift+8 move container to workspace $ws18
+bindsym Mod1+Shift+9 move container to workspace $ws19
+bindsym Mod1+Shift+0 move container to workspace $ws20
+
+# Dual Monitor Workspaces
+bindsym $mod+g workspace prev
+bindsym $mod+semicolon workspace next
+bindsym $mod+Left workspace prev
+bindsym $mod+Right workspace next
+bindsym $mod+Shift+g move container to output left
+bindsym $mod+Shift+semicolon move container to output right
+bindsym $mod+Shift+Left move container to output left
+bindsym $mod+Shift+Right move container
+bindsym $mod+Tab workspace back_and_forth	
+
+# Reload Config File
+bindsym Mod1+Shift+c reload
+
+# Restart i3
+bindsym Mod1+Shift+r restart
+
+# Resize Window (Can Also Use Mouse).
+mode "resize" {
+        # bindings trigger as soon as you enter the resize mode.
+        bindsym h resize shrink width 5 px or 5 ppt
+        bindsym j resize shrink height 5 px or 5 ppt
+        bindsym k resize grow height 5 px or 5 ppt
+        bindsym l resize grow width 5 px or 5 ppt
+        
+        bindsym Shift+h resize shrink width 60 px or 60 ppt
+        bindsym Shift+j resize shrink height 60 px or 60 ppt
+        bindsym Shift+k resize grow height 60 px or 60 ppt
+        bindsym Shift+l resize grow width 60 px or 60 ppt
+
+        # back to normal: Enter or Escape or $mod+r
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym Mod4+r mode "default"
+}
+
+bindsym $mod+r mode "resize"
+
+# Resize Gaps
+bindsym $mod+s			gaps inner current plus 5
+bindsym $mod+Shift+s		gaps inner current minus 5
+bindsym $mod+z			gaps outer current plus 5
+bindsym $mod+Shift+z		gaps outer current minus 5
+bindsym $mod+Shift+t		gaps inner current set 12; gaps outer current set 12
+bindsym $mod+Shift+d		gaps inner current set 0; gaps outer current set 0
+
+# Window colors
+set $bg-color 	         #282828
+set $inactive-bg-color   #282828
+set $text-color          #d79921
+set $inactive-text-color #98971A
+set $urgent-bg-color     #cc241d
+
+# class                 border              background         text                 indicator		 child_border
+client.focused          $bg-color           $bg-color          $text-color          $inactive-text-color $inactive-text-color
+client.unfocused        $inactive-bg-color  $inactive-bg-color $inactive-text-color $inactive-text-color $bg-color
+client.focused_inactive $inactive-bg-color  $inactive-bg-color $inactive-text-color $inactive-text-color $bg-color
+client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          $inactive-text-color $urgent-bg-color
+
+# Set BG
+exec_always --no-startup-id feh --bg-fill ~/Pictures/wallpapers/wallpaper.png
+
+# Launch Polybar
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
