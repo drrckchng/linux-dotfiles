@@ -15,10 +15,10 @@ set $fm DP-2
 # Program Binds
 bindsym $mod+Return exec $term
 bindsym $mod+w exec $browser
-bindsym $mod+Shift+x exec xflock4
 bindsym $mod+d exec --no-startup-id rofi -show drun
-bindsym XF86MonBrightnessUp exec brightnessctl set 5%+
-bindsym XF86MonBrightnessDown exec brightnessctl set 5%-
+bindcode $mod+Shift+x exec xflock4
+bindcode 202 exec brightnessctl set 5%+
+bindcode 199 exec brightnessctl set 5%-
 bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +5%
 bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -5%
 bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
