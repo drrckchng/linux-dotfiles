@@ -13,6 +13,7 @@ sudo pacman -S ibus-hangul --noconfirm
 sudo pacman -S kitty --noconfirm
 sudo pacman -S lazygit --noconfirm
 sudo pacman -S lf --noconfirm
+# install lynx, bat, atool, octet-stream, ffmpegthumbnailer odt2txt
 # install ueberzug on pip3
 sudo pacman -S neovim --noconfirm
 sudo pacman -S noto-fonts-cjk --noconfirm
