@@ -20,7 +20,6 @@
     "files.defaultLanguage": "$(activeEditorLanguage)",
     "files.eol": "\n",
     "files.insertFinalNewline": true,
-    "workbench.iconTheme": "Monokai Pro Icons",
     "cSpell.language": "en",
     "[markdown]": {
         "editor.defaultFormatter": "yzhang.markdown-all-in-one"
