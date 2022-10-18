@@ -29,3 +29,4 @@ yay -S nerd-fonts-complete --noconfirm
 yay -S picom-git --noconfirm
 yay -S visual-studio-code-bin --noconfirm
 
+# Install vscode extensions
