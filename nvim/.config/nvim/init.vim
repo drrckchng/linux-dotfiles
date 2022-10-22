@@ -39,6 +39,7 @@ set noshowcmd
 	syntax on
 	set encoding=utf-8
 	set number relativenumber
+	set conceallevel=2
 " Enable autocompletion:
 	set wildmode=longest,list,full
 " Disables automatic commenting on newline:
@@ -107,7 +108,10 @@ autocmd vimenter * ++nested colorscheme gruvbox
 set background=dark
 
 " Vim Markdown
-let g:vim_markdown_fenced_langauges = ['javascript=js']
+let g:vim_markdown_folding_disabled = 1
+let g:vim_markdown_conceal = 1
+let g:vim_markdown_conceal_code_blocks = 0
+let g:vim_markdown_fenced_languages = ['js=javascript']
 
 "VSCode
 function! s:split(...) abort
