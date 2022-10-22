@@ -38,6 +38,7 @@ set noshowcmd
 	filetype plugin on
 	syntax on
 	set encoding=utf-8
+	set autoindent expandtab tabstop=4 shiftwidth=4
 	set number relativenumber
 	set conceallevel=2
 " Enable autocompletion:
@@ -112,6 +113,7 @@ let g:vim_markdown_folding_disabled = 1
 let g:vim_markdown_conceal = 1
 let g:vim_markdown_conceal_code_blocks = 0
 let g:vim_markdown_fenced_languages = ['js=javascript']
+let g:vim_markdown_new_list_item_indent = 0
 
 "VSCode
 function! s:split(...) abort
