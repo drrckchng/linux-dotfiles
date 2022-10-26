@@ -11,14 +11,14 @@ map ,, :keepp /<++><CR>ca<
 imap ,, <esc>:keepp /<++><CR>ca<
 
 call plug#begin(system('echo -n "${XDG_CONFIG_HOME:-$HOME/.config}/nvim/plugged"'))
+Plug 'godlygeek/tabular'
+Plug 'preservim/vim-markdown'
 Plug 'tpope/vim-surround'
 Plug 'jreybert/vimagit'
 Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-commentary'
 Plug 'ap/vim-css-color'
 Plug 'morhetz/gruvbox'
-Plug 'dkarter/bullets.vim'
-Plug 'tpope/vim-surround'
 call plug#end()
 
 set title
@@ -38,7 +38,9 @@ set noshowcmd
 	filetype plugin on
 	syntax on
 	set encoding=utf-8
+	set autoindent expandtab tabstop=4 shiftwidth=4
 	set number relativenumber
+	set conceallevel=2
 " Enable autocompletion:
 	set wildmode=longest,list,full
 " Disables automatic commenting on newline:
@@ -105,6 +107,13 @@ augroup END
 " Gruvbox Settings
 autocmd vimenter * ++nested colorscheme gruvbox
 set background=dark
+
+" Vim Markdown
+let g:vim_markdown_folding_disabled = 1
+let g:vim_markdown_conceal = 1
+let g:vim_markdown_conceal_code_blocks = 0
+let g:vim_markdown_fenced_languages = ['js=javascript']
+let g:vim_markdown_new_list_item_indent = 0
 
 "VSCode
 function! s:split(...) abort
