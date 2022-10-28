@@ -13,7 +13,7 @@ export XDG_CACHE_HOME=$HOME/.cache
 export XDG_DATA_HOME=$HOME/.local/share
 
 # Execute Remap Script
-remaps &
+sh remaps &
 
-ibus-daemon -drxR
+ibus-daemon -drxR &
 export GLFW_IM_MODULE=ibus
