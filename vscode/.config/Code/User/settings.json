@@ -637,7 +637,8 @@
     "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
     "editor.minimap.enabled": false,
     "editor.fontFamily": "'JetBrainsMono Nerd Font Mono', 'monospace', monospace, 'Material Icons'",
-    "glassit.alpha": 235,
+    "glassit.alpha": 250,
     "terminal.integrated.fontSize": 13,
-    "workbench.activityBar.visible": false
+    "workbench.activityBar.visible": false,
+    "editor.fontSize": 15
 }
