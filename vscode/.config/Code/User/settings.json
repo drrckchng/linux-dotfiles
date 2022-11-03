@@ -639,6 +639,7 @@
     "editor.fontFamily": "'JetBrainsMono Nerd Font Mono', 'monospace', monospace, 'Material Icons'",
     "glassit.alpha": 250,
     "terminal.integrated.fontSize": 13,
-    "workbench.activityBar.visible": false,
-    "editor.fontSize": 15
+    "editor.fontSize": 15,
+    "markdownlint.run": "onSave",
+    "workbench.activityBar.visible": false
 }
