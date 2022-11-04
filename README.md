@@ -12,6 +12,8 @@ I've created a rudimentary install script but it's still not up-to-date (and pro
 
 ![VS Code with neovim extension](screenshot/vscode-nvim.png)
 
+Heavily inspired by [chris@machine](https://www.youtube.com/watch?v=g4dXZ0RQWdw)
+
 ## zsh
 
 I wanted to avoid a heavy zshrc and heavily utilized [chris@machine](https://www.youtube.com/watch?v=bTLYiNvRIVI) zsh dotfiles for a light and minimal setup.
