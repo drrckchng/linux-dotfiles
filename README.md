@@ -10,7 +10,7 @@ I've created a rudimentary install script but it's still not up-to-date (and pro
 
 ## Neovim and VS Code 
 
-I use the neovim extension in VS Code so my config files are setup for a work environment revolving around VS Code.
+[VS Code with neovim extension](screenshot/vscode-nvim.png)
 
 ## zsh
 
