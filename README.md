@@ -2,6 +2,8 @@
 
 ![GIF](screenshot/output.gif)
 
+Tiling + workspace work flow using lf, neovim, and vscode
+
 These are my dotfiles for Arch Linux using XFCE as the DE and i3 as the WM. These are my personal dotfiles that I keep synced between my laptop (x230) and my home machine.
 
 Dotfiles are managed by [stow](https://www.gnu.org/software/stow/)
