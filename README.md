@@ -1,6 +1,6 @@
 ![GIF](screenshot/output.gif)
 
-> *Tiling workflow using lf, neovim, and vscode*
+> Tiling workflow using lf, neovim, and vscode
 
 # Dotfiles for Arch with XFCE and i3wm
 
