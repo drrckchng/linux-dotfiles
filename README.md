@@ -10,7 +10,7 @@ I've created a rudimentary install script but it's still not up-to-date (and pro
 
 ## Neovim and VS Code 
 
-[VS Code with neovim extension](screenshot/vscode-nvim.png)
+![VS Code with neovim extension](screenshot/vscode-nvim.png)
 
 ## zsh
 
