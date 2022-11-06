@@ -53,3 +53,9 @@ compinit
 # Edit line in vim with ctrl-e:
 autoload edit-command-line; zle -N edit-command-line
 
+# LFCD
+LFCD="$HOME/.config/lf/lfcd.sh"
+if [ -f "$LFCD" ]; then
+    source "$LFCD"
+fi
+bindkey -s '^o' 'lfcd\n' #zsh
