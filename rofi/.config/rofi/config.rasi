@@ -1,4 +1,7 @@
-//@theme "/home/derrick/.local/share/rofi/themes/rounded-nord-dark.rasi"
-//@theme "/usr/share/rofi/themes/dmenu.rasi"
-//@theme "/home/derrick/.local/share/rofi/themes/squared-nord.rasi"
-@theme "/usr/share/rofi/themes/gruvbox-dark-hard.rasi"
+@theme "myTheme"
+configuration {
+  font: "JetBrainsMono Nerd Font Mono Regular 12";
+}
+window {
+  width: 24%;
+}
