@@ -14,7 +14,6 @@
     "rainbow_csv.comment_prefix": "#",
     "rainbow_csv.csv_lint_detect_trailing_spaces": true,
     "editor.cursorBlinking": "solid",
-    "editor.cursorStyle": "block",
     "editor.minimap.maxColumn": 100,
     "editor.minimap.scale": 2,
     "files.defaultLanguage": "$(activeEditorLanguage)",
@@ -635,10 +634,10 @@
     "vscode-neovim.useWSL": true,
     "workbench.colorTheme": "Gruvbox Dark Hard",
     "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
-    "editor.minimap.enabled": false,
     "editor.fontFamily": "'JetBrainsMono Nerd Font Mono', 'monospace', monospace, 'Material Icons'",
     "glassit.alpha": 250,
     "terminal.integrated.fontSize": 13,
-    "editor.fontSize": 15,
-    "markdownlint.run": "onSave"
+    "editor.fontSize": 17,
+    "markdownlint.run": "onSave",
+    "editor.tabSize": 2
 }
