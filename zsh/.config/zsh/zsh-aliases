@@ -3,7 +3,7 @@ alias g='lazygit'
 alias vim='nvim'
 alias vi='nvim'
 alias ls='ls --color=auto'
-alias lf='lfub'
+# alias lf='lfub'
 alias zsh-update-plugins="find "$ZDOTDIR/plugins" -type d -exec test -e '{}/.git' ';' -print0 | xargs -I {} -0 git -C {} pull -q"
 
 # get fastest mirrors
