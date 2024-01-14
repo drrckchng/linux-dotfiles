@@ -12,3 +12,4 @@ alias vim='nvim'
 alias vi='nvim'
 alias chrome='google-chrome-stable'
 alias google-chrome='google-chrome-stable'
+. "$HOME/.cargo/env"

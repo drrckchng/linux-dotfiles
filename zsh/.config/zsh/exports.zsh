@@ -2,6 +2,8 @@
 HISTSIZE=1000000
 SAVEHIST=1000000
 export PATH="$HOME/.local/bin":$PATH
+export PATH="$HOME/home/derrick/.local/share/bob/nvim-bin":$PATH
+export PATH="$HOME/home/derrick/.local/share/bob":$PATH
 export TERMINAL="kitty"
 export BROWSER="firefox"
 export EDITOR="nvim"
